@@ -20,7 +20,7 @@ The work is stored in Jupyter Notebook file NoSQL_setup_starter.ipynb. Following
 
 ## Part 2: Update the Database 
 --------------------------------------------------------------------------------------------
-All the coding was done in  Jupyter Notebook part_2_mars_weather.ipynb. Following are the steps below as specified:
+All the coding was done in  Jupyter Notebook NoSQL_setup_starter.ipynb. Following are the steps below as specified:
 1. New reaturant details "Penang Flavours" in json format inserted into establishments collection using insert_one().
 1. Checked if the reaturant "Penang Flavours" was entered into the collection using MongoDB query find_one().
 1. Found the BusinessTypeID to be 1 for "Restaurant/Cafe/Canteen" and return only the BusinessTypeID and BusinessType fields using MongoDB find query defining fields to be displayed.
@@ -32,6 +32,7 @@ All the coding was done in  Jupyter Notebook part_2_mars_weather.ipynb. Followin
 
 ## Part 3: Exploratory Analysis
 --------------------------------------------------------------------------------------------
+All the coding was done in  Jupyter Notebook NoSQL_analysis_starter.ipynb. 
 1. Which establishments have a hygiene score equal to 20?
 Used query in find() function to put the condition for filtering of the results 
 Answer - Total number of rows in the establishments with hygiene score 20 are 41
